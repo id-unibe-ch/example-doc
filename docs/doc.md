@@ -13,7 +13,7 @@ Files need to be named by the template they are used in, for example `docs/doc.m
 
 ### Example file names
 - doc.md: Use this for Markdown + Markdown Extra content.
-- doc-kbt.md: Use this for KirbyText content.
+- doc-kt.md: Use this for KirbyText content.
 
 [https://getkirby.com/docs/reference/text/markdown] - Markdown syntax reference.
 [https://michelf.ca/projects/php-markdown/extra/] - Markdown Extra syntax reference.
@@ -29,7 +29,7 @@ docs/
 └── example/
     └── doc.md
 └── example 2/
-    └── doc-kbt.md
+    └── doc-kt.md
     └── example 2a/
         └── doc.md
 doc.md
