@@ -2,6 +2,18 @@ Title: Active Documentation Example 2 KirbyText
 
 ----
 
+SubText: Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.
+
+----
+
+HeaderColor: #6264A7
+
+----
+
+HeaderImage: https://learnhub.unibe.ch/media/pages/tutorials/ms-teams-kopie/bcf380faef-1751442914/burp1-2880x.jpg
+
+----
+
 Read: docs/example
 
 ----
