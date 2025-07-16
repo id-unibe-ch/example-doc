@@ -33,11 +33,7 @@ This page demonstrates all well-known markdown and markdown extra elements.
 ##### Header 5
 ###### Header 6
 
-Alternative H1
-==============
-
-Alternative H2
---------------
+Not allowed: `Alternative H1` or `Alternative H2`
 
 ## Text Formatting
 
