@@ -14,6 +14,10 @@ HeaderImage: https://learnhub.unibe.ch/media/pages/tutorials/ms-teams-kopie/bcf3
 
 ----
 
+TextColor: #FFFFFF
+
+----
+
 Read: docs/example
 
 ----
