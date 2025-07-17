@@ -292,7 +292,7 @@ linkStyle default stroke: white
 
 ### Emoji (if supported)
 
-:smile: :heart: :thumbsup: :rocket: :star:
+🙂 🥳 👍 🚀 🌟
 
 ### Special Characters and Escaping
 
