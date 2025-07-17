@@ -91,6 +91,9 @@ Term 2
 :   Definition 2a
 :   Definition 2b
 
+## Admonitions
+
+
 ## Links and Images
 
 ### Links
@@ -151,12 +154,41 @@ FROM users
 WHERE active = 1;
 ```
 
-### Code with Line Numbers
+### Terraform Code with Line Highlighting
 
-```javascript {.line-numbers}
-function calculateSum(a, b) {
-    const result = a + b;
-    return result;
+```hcl linenums="3-5"
+resource "azurerm_resource_group" "vending-identity" {
+  name     = var.management_vending_settings.user_assigned_resource_group_name
+  location = var.management_vending_settings.location
+  tags     = var.tags
+}
+ 
+resource "azurerm_user_assigned_identity" "vending-uai" {
+  for_each = local.federated_credentials
+ 
+  location            = azurerm_resource_group.vending-identity.location
+  resource_group_name = azurerm_resource_group.vending-identity.name
+  name                = each.value.name
+  tags                = var.tags
+}
+ 
+resource "azurerm_federated_identity_credential" "vending-uai" {
+  for_each = merge([
+    for key, identity in local.federated_credentials : {
+      for credential in identity.credentials : credential.name => {
+        name    = credential.name
+        step    = credential.workflow_step
+        subject = credential.subject
+      }
+    }
+  ]...)
+ 
+  name                = each.value.name
+  resource_group_name = azurerm_resource_group.vending-identity.name
+  audience            = ["api://AzureADTokenExchange"]
+  issuer              = "https://token.actions.githubusercontent.com"
+  parent_id           = azurerm_user_assigned_identity.vending-uai[each.value.step].id
+  subject             = each.value.subject
 }
 ```
 
