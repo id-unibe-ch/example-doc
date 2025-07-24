@@ -79,8 +79,15 @@ Alternative syntax:
 ### Task Lists
 
 - [x] Completed task
-- [ ] Incomplete task
-- [x] Another completed task
+    Task Description
+- [ ] Incomplete task with subtasks
+    Task Description
+    * [x] Completed subtask
+    * [x] Another completed subtask
+    * [ ] Incomplete subtask
+- [ ] Another incomplete task
+- [x] Simple completed task without description
+- [ ] Simple incomplete task without description
 
 ### Definition Lists
 
@@ -91,6 +98,12 @@ Term 2
 :   Definition 2a
 :   Definition 2b
 
+Complex Term with Multiple Words
+:   This is a longer definition that spans multiple words and shows how the styling works with more content.
+
+Single Definition Term
+:   Just one definition here.
+
 ## Admonitions
 
 !!! note "Note - Phasellus posuere in sem ut cursus"
@@ -100,6 +113,13 @@ Term 2
     massa, nec semper lorem quam in massa.
 
 !!! warning "Warning - Phasellus posuere in sem ut cursus"
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
