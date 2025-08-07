@@ -112,6 +112,7 @@ Single Definition Term
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
+
 !!! warning "Warning - Phasellus posuere in sem ut cursus"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
@@ -125,11 +126,13 @@ Single Definition Term
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
+
 !!! error "Error - Phasellus posuere in sem ut cursus"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
 
 !!! success "Success - Phasellus posuere in sem ut cursus"
 
@@ -137,18 +140,21 @@ Single Definition Term
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
+
 !!! info "Info - Phasellus posuere in sem ut cursus"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
 
+
 !!! tip "Tip - Phasellus posuere in sem ut cursus"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
-    
+
+ 
 !!! tip ""
 
     No Title - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
@@ -174,11 +180,11 @@ Single Definition Term
 
 ### Images
 
-![Alt text](https://via.placeholder.com/150x100 "Image title")
+![Alt text](https://learnhub.unibe.ch/media/pages/ueber-uns/a50fd067ac-1750423635/222-2880x.jpg "Image title")
 
 ![Reference image][image-ref]
 
-[image-ref]: https://via.placeholder.com/300x200 "Reference Image"
+[image-ref]: https://learnhub.unibe.ch/media/pages/ueber-uns/a50fd067ac-1750423635/222-2880x.jpg "Reference Image"
 
 ## Code
 
