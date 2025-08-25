@@ -38,3 +38,4 @@ doc.md
 ## Heading 2
 
 Some more text here.
+![Example Image](./test-image-1.png)
