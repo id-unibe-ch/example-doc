@@ -109,3 +109,7 @@ Each documentation page must have the following structure:
 
     Unused sections may be removed, for example if you do not want to have a subtext,
     just remove the whole section including the `----` lines.
+
+----
+
+Uuid: unibe-doc-example
