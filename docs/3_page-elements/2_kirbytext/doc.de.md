@@ -1,8 +1,8 @@
-Title: Active Documentation Example 2 KirbyText
+Title: KirbyText Elements
 
 ----
 
-SubText: Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.
+SubText: This page makes use of various KirbyText elements.
 
 ----
 

@@ -2,7 +2,7 @@ Title: Markdown Extra Example
 
 ----
 
-Read: docs/example
+SubText: This page demonstrates all well-known markdown and markdown extra elements.
 
 ----
 
@@ -180,7 +180,9 @@ Single Definition Term
 
 ### Images
 
-![Alt text](https://learnhub.unibe.ch/media/pages/ueber-uns/a50fd067ac-1750423635/222-2880x.jpg "Image title")
+![Internal Image](test-image-1.png "Internal Image")
+
+![External Image](https://learnhub.unibe.ch/media/pages/ueber-uns/a50fd067ac-1750423635/222-2880x.jpg "External Image")
 
 ![Reference image][image-ref]
 
