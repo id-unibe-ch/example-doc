@@ -2,10 +2,6 @@ Title: Example Documentation
 
 ----
 
-Uuid: unibe-doc-example
-
-----
-
 Text:
 
 ## Source Code
@@ -40,3 +36,9 @@ Each documentation page must have the following structure:
     `Uuid: unibe-doc-example`  
     `----`  
     Subpages do not need to have a `Uuid` field as it will be created automatically by Kirby CMS.
+
+----
+
+Uuid: unibe-doc-example
+
+----
