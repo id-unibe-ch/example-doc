@@ -31,10 +31,7 @@ Each documentation page must have the following structure:
 
     Make sure to set a `Uuid` field on the main page of your documentation.  
     This is required for referencing the documentation from the static page.  
-    The `Uuid` field must be unique and must not be used on any other page.  
-    `----`  
-    `Uuid: unibe-doc-example`  
-    `----`  
+    Take the [Example Documentation main page](https://github.com/id-unibe-ch/example-doc/blob/main/docs/doc.de.md?plain=1) as reference.
     Subpages do not need to have a `Uuid` field as it will be created automatically by Kirby CMS.
 
 ----
