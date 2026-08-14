@@ -180,8 +180,8 @@ Single Definition Term
 ![External Image](https://learnhub.unibe.ch/media/pages/ueber-uns/a50fd067ac-1750423635/222-2880x.jpg "External Image")
 
 ![Reference image][image-ref]
-
-[image-ref]: https://learnhub.unibe.ch/media/pages/ueber-uns/a50fd067ac-1750423635/222-2880x.jpg "Reference Image"
+<!-- 
+[image-ref]: https://learnhub.unibe.ch/media/pages/ueber-uns/a50fd067ac-1750423635/222-2880x.jpg "Reference Image" -->
 
 ## Code
 
