@@ -1,12 +1,7 @@
-Title: Markdown Extra Example
+---
+title: Markdown Extra Example
+---
 
-----
-
-SubText: This page demonstrates all well-known markdown and markdown extra elements.
-
-----
-
-Text:
 # Markdown Demo Page
 
 This page demonstrates all well-known markdown and markdown extra elements.

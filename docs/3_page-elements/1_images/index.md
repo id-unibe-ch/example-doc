@@ -1,12 +1,6 @@
-Title: Image handling and usage
-
-----
-
-SubText: This page describes the image handling and usage in the documentation
-
-----
-
-Text:
+---
+title: Image handling and usage
+---
 
 Images need to be stored in the same folder as the documentation file, for example `docs/example/test-image-1.png`.  
 As Kirby CMS uses its own image handling and routing, images need to be referenced by an absolute path.  

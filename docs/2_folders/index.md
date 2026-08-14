@@ -1,12 +1,7 @@
-Title: Folder naming and handling
+---
+title: Folder naming and handling
+---
 
-----
-
-SubText: This page describes the folder naming conventions and structures
-
-----
-
-Text:
 Each page needs to be in its own folder, named after the short-form pagetitle, for example `docs/example/doc.de.md`.  
 The folder name may contain only lowercase letters, numbers and hyphens.  
 Each folder may contain subfolders, for example `docs/example/sub-page/doc.de.md`.

@@ -1,8 +1,6 @@
-Title: Example Documentation
-
-----
-
-Text:
+---
+title: Example Documentation
+---
 
 ## Source Code
 The source code of this documentation is available on GitHub:  

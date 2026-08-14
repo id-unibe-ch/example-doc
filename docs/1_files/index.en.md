@@ -1,12 +1,7 @@
-Title: File naming and handling
+---
+title: File naming and handling
+---
 
-----
-
-SubText: This page describes the file naming conventions and handling of multilingual content
-
-----
-
-Text:
 Files need to be named by the template they are used in, for example `docs/doc.md` for the `markdown` template (= doc.php).
 
 ## Multilingual files
