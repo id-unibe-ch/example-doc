@@ -101,67 +101,60 @@ Single Definition Term
 
 ## Admonitions
 
-!!! note "Note - Phasellus posuere in sem ut cursus"
+!!! note "Note - Admonitions need indented content"
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    The content of an admonition must be indented by four spaces. Everything that
+    is indented belongs to the block, the first line that is no longer indented
+    ends it.
   
-!!! warning "Warning - Phasellus posuere in sem ut cursus"
+!!! warning "Warning - Keep a blank line between paragraphs"
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    Consecutive indented lines are rendered as a single paragraph, so this
+    sentence and the previous one end up in the same block of text.
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    To start a new paragraph inside an admonition, leave one empty line between
+    the two blocks and keep the indentation of the following lines.
   
-!!! error "Error - Phasellus posuere in sem ut cursus"
+!!! error "Error - Missing image files break the build"
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    If a referenced image does not exist in the page folder, the page still
+    renders but shows a broken image. Always add the file next to the
+    `index.md` that references it.
   
-!!! danger "Danger - Phasellus posuere in sem ut cursus"
+!!! danger "Danger - Never commit credentials"
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    Documentation pages are published publicly. Do not paste passwords, API keys
+    or personal data into examples, use placeholders such as `<your-token>`
+    instead.
   
-!!! success "Success - Phasellus posuere in sem ut cursus"
+!!! success "Success - Page structure is complete"
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    A page that contains a title in the front matter, a `Uuid` on the main page
+    and correctly named folders is ready to be published without further changes.
   
-!!! info "Info - Phasellus posuere in sem ut cursus"
+!!! info "Info - Supported admonition types"
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    The types `note`, `warning`, `error`, `danger`, `success`, `info`, `example`
+    and `tip` are available. Any other type falls back to the default styling.
   
-!!! example "Example - Phasellus posuere in sem ut cursus"
+!!! example "Example - Referencing another page"
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    Link to a sibling page with a relative path, for example
+    `[Image handling](../images/)`. The numeric folder prefixes are stripped
+    from the URL, so they must not appear in the link.
   
-!!! tip "Tip - Phasellus posuere in sem ut cursus"
+!!! tip "Tip - Reuse this demo page"
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    Copy this page into your own documentation while you set up the styling,
+    then delete it once you no longer need a reference for the available
+    elements.
 
  
 !!! tip ""
 
-    No Title - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+    An admonition with an empty title renders without a header line. Use it when
+    the surrounding text already explains the context and a title would only
+    repeat it.
 
 ## Links and Images
 
