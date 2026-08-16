@@ -185,7 +185,7 @@ Single Definition Term
 
 ### Videos
 
-::youtube{id="TtRtkTzHVBU" poster="![…](https://images-assets.nasa.gov/image/0302063/0302063~medium.jpg)" title="Example Video" params="start=57&end=75"}
+::youtube{id="TtRtkTzHVBU" poster="https://images-assets.nasa.gov/image/0302063/0302063~medium.jpg" title="Example Video" params="start=57&end=75"}
 
 ## Code
 
